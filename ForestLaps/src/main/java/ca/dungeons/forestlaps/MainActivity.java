@@ -173,9 +173,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
                         // Adds the lap data to the text box
                         String lapTextBox = "Lap " + lapCounter + ": " +
-                                Double.toString(roundedSeconds) + "s " +
-                                Double.toString(roundedAvgSpeed) + " avg spd " +
-                                Double.toString(roundedTopSpeed) + " top spd\n";
+                                Double.toString(roundedSeconds) + "s, " +
+                                Double.toString(roundedAvgSpeed) + "kph avg spd, " +
+                                Double.toString(roundedTopSpeed) + "kph top spd\n";
                         etTiming.append(lapTextBox);
 
                         // Updates the UI showing last lap data
